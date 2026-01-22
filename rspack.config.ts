@@ -12,7 +12,7 @@ export default defineConfig({
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
-    publicPath: isDev ? '/' : '/great-frontend-account-settings/',
+    publicPath: isDev ? '/' : '/great-frontend-footer-simple/',
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
